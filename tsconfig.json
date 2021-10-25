@@ -1,0 +1,11 @@
+{
+  "extends": "ts-config-gm-react-app/tsconfig",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "importsNotUsedAsValues": "preserve",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*", "global.d.ts"]
+}
